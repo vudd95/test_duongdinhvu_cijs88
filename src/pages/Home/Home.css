@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+.home {
+  width: 80rem;
+  height: 10rem;
+  margin: 0 auto;
+}
+
+.taskForm__home {
+  margin-bottom: 1rem;
+}
+
+.taskItem__home {
+  margin-bottom: 2rem;
+}
+
+.taskForm {
+  width: 80rem;
+  height: 4rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 20rem;
+}
+
+.taskForm input {
+  width: 50rem;
+  border-radius: 1rem;
+  border: 1px solid gray;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.taskForm button {
+  width: 10rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+
+.task-item {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.task-item input {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.task-list {
+  list-style: none;
+  margin-top: 1rem;
+}

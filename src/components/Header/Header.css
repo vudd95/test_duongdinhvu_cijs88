@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 80rem;
+  height: 8rem;
+  margin: 5rem auto;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  list-style: none;
+}
+
+.header ul li {
+  text-align: center;
+  border-bottom: 1px solid blue;
+  width: 25rem;
+}
+
+.list-item {
+  text-decoration: none;
+}
